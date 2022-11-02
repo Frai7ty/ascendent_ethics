@@ -1,0 +1,33 @@
+#####################
+### Gestalt Perks ###
+#####################
+ag_nanite_applications = {
+	potential = {
+		NOT = {
+			has_ascension_perk = ag_nanite_applications
+		}
+		is_machine_empire = yes
+	}
+	
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_ascension_perks_1"
+			num_ascension_perks > 0
+		}
+		custom_tooltip = {
+			fail_text = "requires_tech_self_assembling_components"
+			has_technology = tech_self_assembling_components
+		}
+
+	}
+	on_enabled = {
+		add_research_option = tech_nanite_transmutation
+	}
+	ai_weight = {
+		factor = 20
+		modifier = {
+			is_machine_empire = yes
+			factor = 5
+		}
+	}
+}

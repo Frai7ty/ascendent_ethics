@@ -1,0 +1,51 @@
+tr_nanite_adopt = {
+	modifier = {
+		country_government_civic_points_add = 1
+	}
+}
+
+tr_nanite_finish = {
+	modifier = {
+		ascension_perks_add = 1
+	}
+
+	on_enabled = {
+		country_event = { id = ag.1 }
+	}
+}
+
+tr_nanite_self_actualizing = {
+	modifier = {
+		planet_jobs_robotic_produces_mult = 0.10
+	}
+}
+
+tr_nanite_self_optimising = {
+	possible = {
+		has_tradition = tr_nanite_self_actualizing
+	}
+
+	modifier = {
+		job_evaluator_per_pop = 0.05
+		job_patrol_drone_per_pop = 0.05
+	}
+}
+
+tr_nanite_self_replicating = {
+	possible = {
+		has_tradition = tr_nanite_self_optimising
+	}
+}
+
+tr_nanite_micro_enhacement = {
+	modifier = {
+		MACHINE_species_trait_points_add = 1
+	}
+}
+
+tr_nanite_untility_fog = {
+	possible = {
+		has_tradition = tr_nanite_micro_enhacement
+	}
+	
+}

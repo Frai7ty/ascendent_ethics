@@ -1,0 +1,87 @@
+﻿l_english:
+
+# Perks
+ ag_nanite_applications:0 "Nanite Application"
+ ag_nanite_applications_desc:0 "Deveopments in nanite technology will start the path of controlling every facimily of our domain."
+
+ requires_ag_nanite_applications:0 "Requires Nanite Applications"
+ requires_tech_self_assembling_components:0 "Requires Self-Assembling Components"
+ requires_tech_nanite_transmutation:0 "Requires Nanite Transmutation"
+
+# Traditions
+ tradition_nanite:0 "Nanite"
+ tradition_nanite_desc:0 "Delving down into the micro, to further surpass the macro."
+
+ tr_nanite_adopt:0 "Nanite Traditions"
+ tr_nanite_adopt_desc:0 ""
+
+ tr_nanite_finish:0 ""
+
+ tr_nanite_self_actualizing:0 "Self-Actualizing"
+ tr_nanite_self_actualizing_desc:0 "§YDrone Output§! increased by §G+10%§!." 
+ 
+ tr_nanite_self_optimising:0 "Self-Optimising"
+ tr_nanite_self_optimising_desc:0 "£job_evaluator£ §YEvaluator§! and Patrol Drones per §Y20§! £pop £ Pops increased by §G+1§!." 
+ 
+ tr_nanite_self_replicating:0 "Self-Replicating"
+ tr_nanite_self_replicating_desc:0 "§YNanite Forge§! and §YNanite Complex§! gain 1 Nanite  Replicator per §Y25§! £pop£ Pops increased by §G+1§!" 
+ 
+ tr_nanite_micro_enhacement:0 "Micro Enhancement"
+ tr_nanite_micro_enhacement_desc:0 "Robitic Species gain +1 Trait point." 
+ 
+ tr_nanite_untility_fog:0 "Utility Fog"
+ tr_nanite_untility_fog_desc:0 "Gain Acess to the §YUtillity Fog§! planetray descision." 
+
+# Buildings 
+ nanite_forge:0 "Nanite Forge"
+ nanite_forge_desc:0 "An advanced assembly plant where nanites are constructed."
+ 
+ nanite_complex:0 "Nanite Complex"
+ nanite_complex_desc:0 "A complex that produces nanites at a massive scale."
+ 
+# Jobs
+ job_nanite_replicator:0 "Nanite Replicator "
+ job_nanite_replicator_plural:0 "Nanite Replicators"
+ job_nanite_replicator_desc:0 "A drone specialized for producing nanites."
+ mod_job_nanite_replicator_add:0 "£job_replicator£ Nanite Replicator Jobs"
+ mod_job_nanite_replicator_per_pop:0 "£job_replicator£ Nanite Replicator Jobs per $VALUE$ Pop"
+ mod_job_nanite_replicator_per_pop_short:0 "\n§G+1§! £mod_job_nanite_replicator_add£ per $VALUE$ £pop£"
+
+# Traits
+ trait_nanite:0 "Nanite"
+ trait_nanite_desc:0 "This species is made of up of countless nanites."
+ 
+ trait_ruler_nanite:0 "Nanite"
+ trait_ruler_nanite_desc:0 "This being is comprised of countless nanites."
+ 
+ trait_governor_nanite:0 "Nanite"
+ trait_governor_nanite_desc:0 "This being is comprised of countless nanites."
+ 
+ trait_scientist_nanite:0 "Nanite"
+ trait_scientist_nanite_desc:0 "This being is comprised of countless nanites."
+ 
+ trait_admiral_nanite:0 "Nanite"
+ trait_admiral_nanite_desc:0 "This being is comprised of countless nanites."
+ 
+ trait_general_nanite:0 "Nanite"
+ trait_general_nanite_desc:0 "This being is comprised of countless nanites."
+
+# Static Effects
+ planet_utility_fog:0 "Utility Fog"
+ planet_utility_fog_desc:0 "We have saturated the atmosphere of this world with countless  nanites, resulting in various advantages."
+
+# Decisions
+ decision_utility_fog:0 "Utility Fog"
+ decision_utility_fog_desc:0 "This will saturate the world in our nanites, providing various  advantages."
+ 
+ decision_expand_nanite:0 "Nanite Domain Expantion"
+ decision_expand_nanite_desc:0 "Now that the domain of this world is saturated with nanites, we  may being the process of expanding it."
+
+# Events
+ ag.1.name:0 "Nanite Perfection"
+ ag.1.desc:0 "We have turned our bodies into motes of dust. Each drone a microcosm of the  collective."
+
+# Deposits
+ d_nanite_expantion:0 "Nanite Expantion"
+ d_nanite_expantion_desc:0 "How much our domian has been expanded my nanites."
+

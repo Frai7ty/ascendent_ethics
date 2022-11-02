@@ -1,0 +1,142 @@
+###############################
+### Modified Base Bulidings ###
+###############################
+building_machine_assembly_plant = {
+	icon = building_robot_assembly_plant
+	base_buildtime = @b1_time
+	base_cap_amount = 1
+
+	category = pop_assembly
+
+	potential = {
+		exists = owner
+		owner = { is_machine_empire = yes }
+		NOT = {
+			owner = { has_ascension_perk = ag_nanite_applications}
+		}
+	}
+
+	convert_to = {
+		building_robot_assembly_plant
+		nanite_forge
+	}
+
+	allow = {
+		hidden_trigger = {
+			OR = {
+				owner = { is_ai = no }
+				NAND = {
+					free_district_slots = 0
+					free_building_slots <= 1
+					free_housing <= 0
+					free_jobs <= 0
+				}
+			}
+		}
+	}
+
+	destroy_trigger = {
+		exists = owner
+		OR = {
+			owner = { is_robot_empire = no }
+			owner = {
+				has_ascension_perk = ag_nanite_applications
+			}
+			AND = {
+				owner = { is_ai = yes }
+				free_district_slots = 0
+				free_building_slots = 0
+				free_housing <= 0
+				free_jobs <= 0
+			}
+		}
+	}
+
+	planet_modifier = {
+		job_replicator_add = 1
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b1_minerals
+		}
+		upkeep = {
+			energy = @b1_upkeep
+		}
+	}
+
+	upgrades = {
+		building_machine_assembly_complex
+	}
+
+	prerequisites = {
+
+	}
+
+	triggered_desc = {
+		text = job_replicator_effect_desc
+	}
+}
+
+building_machine_assembly_complex = {
+	base_buildtime = @b3_time
+	can_build = no
+
+	category = pop_assembly
+
+	potential = {
+		exists = owner
+		owner = { is_machine_empire = yes }
+	}
+
+
+	convert_to = {
+		building_robot_assembly_plant
+		nanite_forge
+	}
+
+	destroy_trigger = {
+		exists = owner
+		OR = {
+			buildings_no_crystals = yes
+			owner = {
+				has_ascension_perk = ag_nanite_applications
+			}
+			owner = {
+				is_robot_empire = no
+			}
+			AND = {
+				owner = { is_ai = yes }
+				free_district_slots = 0
+				free_building_slots = 0
+				free_housing <= 0
+				free_jobs <= 0
+			}
+		}
+	}
+
+	planet_modifier = {
+		job_replicator_add = 3
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = @b3_minerals
+			rare_crystals = @b3_rare_cost
+		}
+		upkeep = {
+			energy = @b3_upkeep
+			rare_crystals = @b3_rare_upkeep
+		}
+	}
+
+	prerequisites = {
+		tech_mega_assembly
+	}
+
+	triggered_desc = {
+		text = job_replicator_effect_desc
+	}
+}

@@ -1,0 +1,29 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_ag_nanite_applications"
+		textureFile = "gfx/interface/icons/ascension_perks/ag_nanite_applications.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tr_nanite_self_actualizing"
+		textureFile = "gfx/interface/icons/traditions/tradition_adaptability_survival_fittest.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_nanite_self_optimising"
+		textureFile = "gfx/interface/icons/traditions/tradition_prosperity_interstellar_franchising.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_nanite_self_replicating"
+		textureFile = "gfx/interface/icons/traditions/tradition_domination_drone_network.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_nanite_micro_enhacement"
+		textureFile = "gfx/interface/icons/traditions/tradition_harmony_the_greater_good.dds"
+	}
+	spriteType = {
+		name = "GFX_tr_nanite_untility_fog"
+		textureFile = "gfx/interface/icons/traditions/tradition_synchronicity_drone_network.dds"
+	}
+	
+}

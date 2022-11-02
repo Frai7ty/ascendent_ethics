@@ -1,0 +1,5 @@
+on_leader_spawned = {
+	events = {
+		ae.11
+	}
+}

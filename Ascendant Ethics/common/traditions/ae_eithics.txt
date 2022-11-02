@@ -1,0 +1,97 @@
+tr_ethics_adopt = {
+	modifier = {
+		unemployment_resources_unity_produces_add = 1
+	}
+}
+
+tr_ethics_finish = {
+	modifier = {
+		ascension_perks_add = 1
+	}
+}
+
+tr_ethics_1_1 = {
+	modifier = {
+		planet_stability_add = 10
+	}
+}
+
+tr_ethics_1_2 = {
+	modifier = {
+		planetary_ascension_cost_mult = -0.1
+	}
+	
+	possible = {
+		has_tradition = tr_ethics_1_1
+	}
+}
+
+tr_ethics_1_3 = {
+	modifier = {
+		empire_size_pops_mult = -0.10
+	}
+	
+	possible = {
+		has_tradition = tr_ethics_1_2
+	}
+}
+
+tr_ethics_2_1 = {
+	modifier = {
+		planet_administrators_produces_mult = 0.10
+	}
+}
+
+tr_ethics_2_2 = {
+	modifier = {
+		job_culture_worker_per_pop = 0.05
+	}
+
+	tradition_swap = {
+		inherit_name = yes
+		inherit_icon = yes
+		inherit_effects = no
+
+		trigger = {
+			is_gestalt = yes
+		}
+
+		modifier = {
+			job_evaluator_per_pop = 0.05
+		}
+	}
+
+	tradition_swap = {
+		inherit_name = yes
+		inherit_icon = yes
+		inherit_effects = no
+
+		trigger = {
+			has_civic = civic_memorialist
+		}
+
+		modifier = {
+			job_death_chronicler_per_pop = 0.05
+		}
+	}
+
+	tradition_swap = {
+		inherit_name = yes
+		inherit_icon = yes
+		inherit_effects = no
+
+		trigger = {
+			has_civic = civic_memorialist
+			is_gestalt = yes
+		}
+
+		modifier = {
+			job_chronicle_drone_per_pop = 0.05
+		}
+	}
+	
+
+	possible = {
+		has_tradition = tr_ethics_2_1
+	}
+}

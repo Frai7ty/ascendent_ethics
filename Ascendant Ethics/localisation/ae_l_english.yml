@@ -1,0 +1,72 @@
+﻿l_english:
+
+#########################
+#### ASCENSION PERKS ####
+#########################
+ ae_xeno_compatibility:0 "Xeno-Compatibility"
+ ae_xeno_compatibility_desc:0 "The invention of universal sexual biology has revolutionized  society. Even if it sometimes requires awkward rotations to make a connection."
+ 
+ ae_culture:0 "Ascendent Ethics"
+ ae_culture_desc:0 "We will seek to ascend ourselves, not through the self, but through our culture."
+
+##################
+### Traditions ###
+##################
+ tradition_ethics:0 "Ascendent Ethics"
+ tradition_ethics_desc:0 "We find that ascension comes from rasing our society, rather than the individual."
+ 
+ tr_ethics_adopt:0 "Ethics Traditions"
+ tr_ethics_adopt_desc:0 "Adpoting this Tradition will modify your Culture monument with further bonusus based on your perk selection."
+ 
+ tr_ethics_finish:0 ""
+ 
+ tr_ethics_1_1:0 "Stability"
+ tr_ethics_1_1_desc:0 "Stability increased by §G+10%§! on all planets."
+ 
+ tr_ethics_1_2:0 "Vision"
+ tr_ethics_1_2_desc:0 "Planetary Ascension cost reduced by §G-10%§!"
+ 
+ tr_ethics_1_3:0 "Management"
+ tr_ethics_1_3_desc:0 "Empire size from pops reduced by §G+10%§!"
+ 
+ tr_ethics_2_1:0 "Unity"
+ tr_ethics_2_1_desc:0 "Administrators produce §G+10%§! more unity."
+ 
+ tr_ethics_2_2:0 "Culture"
+ tr_ethics_2_2_desc:0 "Culture Worker per §Y20§! £pop£ Pops increased by §G+1§!"
+ 
+  # Matrealist Swaps
+   tr_ethics_1_3_mat:0 "Sapient AI"
+   tr_ethics_1_3_mat_desc:0 "Give each Leader a Saipent Ai Assitant."
+
+##############
+### Traits ###
+##############
+ trait_chimera:0 "Chimera"
+ trait_chimera_desc:0 "Able to change form and function at will, this species is able to take any  shape or form."
+ 
+ trait_all_backup:0 "Conciousness Backup"
+ trait_all_backup_desc:0 "This leader has had their conciounsess uploaded."
+
+ trait_ruler_sapient_AI_assistant:0 "Sapient AI Assistant"
+ trait_ruler_sapient_AI_assistant_desc:0 "This leader has created a complex neural network capable of independent decision-making and even introspection."
+ 
+ trait_governor_sapient_AI_assistant:0 "Sapient AI Assistant"
+ trait_governor_sapient_AI_assistant_desc:0 "This leader has created a complex neural network capable of independent decision-making and even introspection."
+ 
+ trait_admiral_sapient_AI_assistant:0 "Sapient AI Assistant"
+ trait_admiral_sapient_AI_assistant_desc:0 "This leader has created a complex neural network capable of independent decision-making and even introspection."
+ 
+ trait_general_sapient_AI_assistant:0 "Sapient AI Assistant"
+ trait_general_sapient_AI_assistant_desc:0 "This leader has created a complex neural network capable of independent decision-making and even introspection."
+
+#################
+### Variables ###
+#################
+
+##############
+### Events ###
+##############
+
+
+

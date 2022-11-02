@@ -1,0 +1,37 @@
+spriteTypes = {
+	
+	spriteType = {
+		name =  "GFX_tr_ethics_1_1"
+		textureFile = "gfx/interface/icons/traditions/tradition_harmony_the_greater_good.dds"
+	}
+	
+	spriteType = {
+		name =  "GFX_tr_ethics_1_2"
+		textureFile = "gfx/interface/icons/traditions/tradition_harmony_the_greater_good.dds"
+	}
+	
+	spriteType = {
+		name =  "GFX_tr_ethics_1_3"
+		textureFile = "gfx/interface/icons/traditions/tradition_harmony_the_greater_good.dds"
+	}
+	
+	spriteType = {
+		name =  "GFX_tr_ethics_2_1"
+		textureFile = "gfx/interface/icons/traditions/tradition_harmony_the_greater_good.dds"
+	}
+	
+	spriteType = {
+		name =  "GFX_tr_ethics_2_2"
+		textureFile = "gfx/interface/icons/traditions/tradition_harmony_the_greater_good.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ae_xeno_compatibility"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_xeno_compatibility.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ae_culture"
+		textureFile = "gfx/interface/icons/ascension_perks/ap_executive_vigor.dds"
+	}
+}

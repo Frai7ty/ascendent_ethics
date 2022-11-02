@@ -1,0 +1,26 @@
+tradition_nanite = {
+	tree_template = "tree_111_11"
+	adoption_bonus = "tr_nanite_adopt"
+	finish_bonus = "tr_nanite_finish"
+	traditions = {
+		"tr_nanite_self_actualizing"
+		"tr_nanite_self_optimising"
+		"tr_nanite_self_replicating"
+		"tr_nanite_micro_enhacement"
+		"tr_nanite_untility_fog"
+	}
+
+	potential = {
+		is_machine_empire = yes
+		has_ascension_perk = ag_nanite_applications
+	}
+
+	ai_weight = {
+		factor = 20
+		modifier = {
+			is_machine_empire = yes
+			factor = 5
+		}
+
+	}
+}

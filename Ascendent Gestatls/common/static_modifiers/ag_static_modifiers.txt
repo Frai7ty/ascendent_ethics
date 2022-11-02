@@ -1,0 +1,8 @@
+planet_utility_fog = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_consecrated_worlds.dds"
+	icon_frame = 1
+	planet_amenities_mult = 0.1
+	planet_building_build_speed_mult = 1.0
+	planet_building_refund_mult = 1.0
+
+}

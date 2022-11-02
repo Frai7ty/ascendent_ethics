@@ -1,0 +1,55 @@
+decision_utility_fog = {
+	owned_planets_only = yes
+	enactment_time = 180
+	icon = decision_machine_sapience
+
+	potential = {
+		owner = { has_tradition = tr_nanite_untility_fog }
+		NOT = { has_modifier = planet_utility_fog }
+	}
+
+	allow = {
+		NOT = { has_modifier = planet_utility_fog }
+	}
+
+	resources = {
+		category = decisions
+		cost = {
+			nanites = 500
+			energy = 1000
+		}
+	}
+
+	effect = {
+		add_modifier = {
+			modifier = planet_utility_fog
+		}
+	}
+}
+
+decision_expand_nanite = {
+	owned_planets_only = yes
+	enactment_time = 900
+	icon = decision_machine_sapience
+
+	allow = {
+		has_modifier = planet_utility_fog 
+	}
+	
+	potential = {
+		has_modifier = planet_utility_fog
+	}
+
+	resources = {
+		category = decisions
+		cost = {
+			nanites = 1000
+			energy = 5000
+		}
+	}
+
+	effect = {
+		add_deposit = d_nanite_expantion
+	}
+	
+}
